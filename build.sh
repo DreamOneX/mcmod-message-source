@@ -11,6 +11,8 @@ build-fabric(){
 build-forge(){
   ./gradlew clean :forge-1_18:remapJar
   mv forge-1_18/build/libs/*.jar packages/forge-1_18.jar
+  ./gradlew clean :forge-1_12:remapJar
+  mv forge-1_12/build/libs/*.jar packages/forge-1_12.jar
 }
 build(){
   rm -rf packages
