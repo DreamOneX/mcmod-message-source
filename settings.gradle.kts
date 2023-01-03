@@ -14,4 +14,4 @@ pluginManagement {
 include("common")
 include("fabric-1_16", "fabric-1_17")
 include("fabric-1_18", "fabric-1_19")
-include("forge-1_18")
+include("forge-1_18", "forge-1_12")
